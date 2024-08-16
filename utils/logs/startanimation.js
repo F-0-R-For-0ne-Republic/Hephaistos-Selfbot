@@ -58,7 +58,7 @@ const displayrealintro = () => {
 /_/ /_/\\___/ .___/_/ /_/\\__,_/_/____/\\__/\\____/____/   /____/\\___/_/_/ /_____/\\____/\\__/  
           /_/        
             `)}
-                           ${gradient.retro("Best Discord Selfbot")} | ${gradient.instagram('For F.0.R')}
+                ${gradient.retro("Best Discord Selfbot")} | Made By ${gradient.retro('unknownuser.js')} | ${gradient.instagram('For F.0.L')}
     `);
     console.log(`                       ${gradient.retro("Welcome.")} Use the ${gradient.retro(`${config.prefix}help`)} command to begin`);
 }
