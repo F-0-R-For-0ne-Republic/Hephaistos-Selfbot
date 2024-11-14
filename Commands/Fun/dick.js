@@ -6,7 +6,7 @@ langFile = fs.readFileSync(`./Lang/${language}.json`);
 lang = JSON.parse(langFile);
 
 
-const testCommand = {
+const dickCommand = {
     name: 'dick',
     description: `${lang.dickdesc}`,
     run(client, message, args) {
@@ -28,6 +28,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(dickCommand.name, dickCommand);
 
-module.exports = testCommand;
+module.exports = dickCommand;

@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client();
 
-const testCommand = {
+const serverinfoCommand = {
     name: 'serverinfo',
     description: lang.serverinfodesc,
     run(client, message, args) {
@@ -40,6 +40,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(serverinfoCommand.name, serverinfoCommand);
 
-module.exports = testCommand;
+module.exports = serverinfoCommand;

@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client();
 
-const testCommand = {
+const iqCommand = {
     name: 'iq',
     description: `${lang.iqdesc}`,
     run(client, message, args) {
@@ -20,6 +20,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(iqCommand.name, iqCommand);
 
-module.exports = testCommand;
+module.exports = iqCommand;

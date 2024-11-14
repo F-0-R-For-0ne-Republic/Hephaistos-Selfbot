@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client();
 
-const testCommand = {
+const catCommand = {
     name: 'cat',
     description: lang.catdesc,
     async run(client, message, args) {
@@ -12,6 +12,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(catCommand.name, catCommand);
 
-module.exports = testCommand;
+module.exports = catCommand;

@@ -3,7 +3,7 @@ const client = new Client();
 const os = require('os')
 const si = require('systeminformation');
 
-const testCommand = {
+const sysinfoCommand = {
     name: 'sysinfo',
     description: lang.sysinfodesc,
     async run(client, message, args) {
@@ -49,6 +49,6 @@ System Information :
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(sysinfoCommand.name, sysinfoCommand);
 
-module.exports = testCommand;
+module.exports = sysinfoCommand;

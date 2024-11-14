@@ -7,7 +7,7 @@ function sleep(number) {
     });
 }
 
-const testCommand = {
+const branletteCommand = {
     name: 'branlette',
     description: lang.branlettedesc,
     run(client, message, args) {
@@ -32,6 +32,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(branletteCommand.name, branletteCommand);
 
-module.exports = testCommand;
+module.exports = branletteCommand;

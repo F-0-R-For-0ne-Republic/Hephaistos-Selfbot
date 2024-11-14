@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client();
 
-const testCommand = {
+const gayCommand = {
     name: 'gay',
     description: `${lang.gaydesc}`,
     run(client, message, args) {
@@ -20,6 +20,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(gayCommand.name, gayCommand);
 
-module.exports = testCommand;
+module.exports = gayCommand;

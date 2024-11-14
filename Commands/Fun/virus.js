@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client();
 
-const testCommand = {
+const virusCommand = {
     name: 'virus',
     description: '',
     run(client, message, args) {
@@ -19,6 +19,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(virusCommand.name, virusCommand);
 
-module.exports = testCommand;
+module.exports = virusCommand;

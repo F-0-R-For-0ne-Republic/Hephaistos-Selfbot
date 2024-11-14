@@ -1,7 +1,7 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client();
 
-const testCommand = {
+const avatarCommand = {
     name: 'avatar',
     description: lang.avatardesc,
     run(client, message, args) {
@@ -13,6 +13,6 @@ const testCommand = {
 
 // Register Commands
 client.commands = new Map();
-client.commands.set(testCommand.name, testCommand);
+client.commands.set(avatarCommand.name, avatarCommand);
 
-module.exports = testCommand;
+module.exports = avatarCommand;
