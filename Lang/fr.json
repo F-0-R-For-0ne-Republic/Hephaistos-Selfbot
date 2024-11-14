@@ -1,0 +1,37 @@
+{
+ "helpdesc": "Affiche les commandes disponibles",
+ "helpmess": "Voici les commandes disponibles",
+ "dickdesc": "Affiche la longueur du penis de la personne mentionner",
+ "gaydesc": "Cette commande permet de dire à combien de pourcent la personne est gay",
+ "iqdesc": "Combien de QI ont vos ami ?",
+ "catdesc": "Affiche une image de chat :>",
+ "groupfuckerdesc": "Vous permet de enculer un groupe au sens propre",
+ "branlettedesc": "Vous permet de littéralement vous branler",
+ "sysinfodesc": "Vous permet de obtenir les informations de votre système",
+ "baguettedesc": "Vous permet de manger une baguette",
+ "clydedesc": "Vous permet de clyde un message >:( #Libérer Clyde",
+ "awooifydesc": "Vous allez devenir awooooo :D",
+ "duckdesc": "Ohwn tes un amoureux des cannard non ? <3",
+ "virusdesc": "Cela vous permet de faire croire que vous envoyer un virus",
+ "dicedesc": "Vous permet de lancé des dé",
+ "avatardesc": "Vous permet de afficher un avatar celon la mention que vous faites",
+ "serverinfodesc": "Vous permet de afficher les informations du serveur",
+
+ "phdesc": "Faux commentaire de Pornhub",
+
+ "penis1": "Pénis de",
+ "penis2": "Taille du pénis",
+
+ "gay1": "est gay à",
+
+ "dice1": "Dé",
+
+ "iq1": "Test de QI sur",
+
+ "successinject": "Injecté avec succès",
+ "virus1": "Empaquetage des Fichiers...",
+
+ "nomentionerror": "Veuillez mentionner une personne pour exécuter la commande",
+ "nomessageerror": "Veuillez écrire un message en argument",
+ "cannotfindtargetserver": "Ce serveur ne peut pas être trouver"
+}
