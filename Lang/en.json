@@ -15,6 +15,8 @@
   "dicedesc": "Allow u to play dice",
   "avatardesc": "Allow you to display mention user avi",
   "serverinfodesc": "You can get all server info with their id",
+  "tokeninfodesc": "Allow you to display all information about a token",
+  "inviteinfodesc": "Allow you to display all information about an invite link",
 
   "phdesc": "Fake pornhub comment",
 
@@ -33,5 +35,6 @@
   "nomentionerror": "Please mention an user to execute this command",
   "nomessageerror": "Please write a message in args",
   "notokenerror": "Please.. enter a token ????",
+  "noinviteerror": "Please enter a valid invite link",
   "cannotfindtargetserver": "We cannot reach server id please try another time"
 }

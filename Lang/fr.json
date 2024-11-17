@@ -16,6 +16,8 @@
  "dicedesc": "Vous permet de lancé des dé",
  "avatardesc": "Vous permet de afficher un avatar celon la mention que vous faites",
  "serverinfodesc": "Vous permet de afficher les informations du serveur",
+ "tokeninfodesc": "Vous permet de afficher des informations sur un token",
+ "inviteinfodesc": "Vous permet de afficher des informations sur une invitation",
 
  "phdesc": "Faux commentaire de Pornhub",
 
@@ -33,6 +35,7 @@
 
  "nomentionerror": "Veuillez mentionner une personne pour exécuter la commande",
  "nomessageerror": "Veuillez écrire un message en argument",
+ "noinviteerror": "Veuillez mettre un lien de inviation",
  "notokenerror": "Veuillez mettre un token",
  "cannotfindtargetserver": "Ce serveur ne peut pas être trouver"
 }
