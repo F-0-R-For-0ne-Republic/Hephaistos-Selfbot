@@ -33,5 +33,6 @@
 
  "nomentionerror": "Veuillez mentionner une personne pour exécuter la commande",
  "nomessageerror": "Veuillez écrire un message en argument",
+ "notokenerror": "Veuillez mettre un token",
  "cannotfindtargetserver": "Ce serveur ne peut pas être trouver"
 }

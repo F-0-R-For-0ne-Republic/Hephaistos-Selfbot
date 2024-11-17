@@ -32,5 +32,6 @@
 
   "nomentionerror": "Please mention an user to execute this command",
   "nomessageerror": "Please write a message in args",
+  "notokenerror": "Please.. enter a token ????",
   "cannotfindtargetserver": "We cannot reach server id please try another time"
 }
