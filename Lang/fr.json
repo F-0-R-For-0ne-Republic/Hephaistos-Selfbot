@@ -18,6 +18,7 @@
  "serverinfodesc": "Vous permet de afficher les informations du serveur",
  "tokeninfodesc": "Vous permet de afficher des informations sur un token",
  "inviteinfodesc": "Vous permet de afficher des informations sur une invitation",
+ "clearinfodesc": "Vous permet de supprimer tout les messages du salon provenant de vous",
 
  "phdesc": "Faux commentaire de Pornhub",
 
