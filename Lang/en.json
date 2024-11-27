@@ -18,6 +18,10 @@
   "tokeninfodesc": "Allow you to display all information about a token",
   "inviteinfodesc": "Allow you to display all information about an invite link",
   "clearinfodesc": "Allow you to delete all message from you in the channel",
+  "thotinfodesc":  "Check the percentage of someone's filthiness",
+  "thot1": "The percentage of the thot",
+  "thot2": "is:",
+  "nitroinfodesc": "Generate a fake Nitro gift link",
 
   "phdesc": "Fake pornhub comment",
 

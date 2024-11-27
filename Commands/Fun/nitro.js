@@ -2,7 +2,7 @@ const Discord = require("discord.js-selfbot-v13");
 
 module.exports = {
   name: "nitro",
-  description: "Generate a fake Nitro gift link",
+  description: lang.nitroinfodesc,
   run: async (client, message, args) => {
     try {
       function nitrocode(length, charset) {

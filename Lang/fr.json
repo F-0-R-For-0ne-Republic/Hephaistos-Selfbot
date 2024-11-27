@@ -19,6 +19,10 @@
  "tokeninfodesc": "Vous permet de afficher des informations sur un token",
  "inviteinfodesc": "Vous permet de afficher des informations sur une invitation",
  "clearinfodesc": "Vous permet de supprimer tout les messages du salon provenant de vous",
+ "thotinfodesc": "Vérifier le pourcentage de saloperie de quelqu'un",
+ "thot1": "Le pourcentage de la saloperie de",
+ "thot2": "est de:",
+ "nitroinfodesc": "Génère un faux lien nitro",
 
  "phdesc": "Faux commentaire de Pornhub",
 
