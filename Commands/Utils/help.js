@@ -6,11 +6,13 @@ const language = config.defaultlang;
 const langFile = fs.readFileSync(`./Lang/${language}.json`);
 const lang = JSON.parse(langFile);
 
+const deletehelp = 10000;
 const helpCommand = {
     name: 'help',
     description: `${lang.helpdesc}`,
     category: 'Utils',
     run: async (client, message, args) => {
+        message.delete()
         const commands = client.commands;
 
         let helpMessage = `= 📜 ${lang.helpmess} =\n`;
@@ -56,7 +58,8 @@ const helpCommand = {
         // Diviser le message et envoyer chaque partie
         const messageParts = splitMessageWithCodeBlocks(helpMessage, MAX_MESSAGE_LENGTH);
         for (const part of messageParts) {
-            await message.channel.send(part);
+            const sentMessage = await message.channel.send(part);
+            setTimeout(() => sentMessage.delete(), deletehelp);
         }
     },
 };
