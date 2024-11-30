@@ -43,13 +43,14 @@
  ***************************************************************************/
 
 
+import conf from "../files/config.json" with { type: "json" };
 import { Client } from 'discord.js-selfbot-v13';
 import type { Command } from './command';
 
 declare global {
   var lang: any
   var client: Client;
-  var prefix: string;
+  var config: typeof conf
 }
 
 
@@ -60,4 +61,4 @@ declare module 'discord.js-selfbot-v13' {
   }
 }
 
-export {}; 
+export { }; 

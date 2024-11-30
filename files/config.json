@@ -1,0 +1,13 @@
+{
+  "console": {
+    "emojis": {
+      "okay": "✅",
+      "error": "❌",
+      "warn": "⚠️",
+      "host": "🚀",
+      "loaded": "🔃"
+    }
+  },
+  "prefix": "test!",
+  "defaultLang": "fr"
+}
