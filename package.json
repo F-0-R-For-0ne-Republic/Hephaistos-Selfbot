@@ -2,10 +2,11 @@
   "name": "hephaistossb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "private": true,
   "dependencies": {
     "colors": "^1.4.0",
@@ -13,10 +14,18 @@
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
     "gradient-string": "^2.0.2",
+    "js-yaml": "^4.1.0",
+    "nekos.life": "^3.0.0",
     "os": "^0.1.2",
     "path": "^0.12.7",
     "punycode.js": "^2.3.1",
     "readline-sync": "^1.4.10",
     "systeminformation": "^5.23.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
