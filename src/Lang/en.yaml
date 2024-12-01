@@ -2,7 +2,7 @@
 helpdesc: "Display available commands"
 helpmess: "Available Commands"
 
-# fun
+# Description
 dickdesc: "Show mentionned user penis size"
 gaydesc: "This command tells you how many percent gay a person is."
 iqdesc: "How many iq your friends have ?"
@@ -22,6 +22,9 @@ inviteinfodesc: "Allow you to display all information about an invite link"
 clearinfodesc: "Allow you to delete all message from you in the channel"
 thotinfodesc: "Check the percentage of someone's filthiness"
 nitroinfodesc: "Generate a fake Nitro gift link"
+backupfriends: "Save your friends list of your account"
+backupfriends1: "Your friends was backup with success in the files :"
+# Other
 phdesc: "Fake pornhub comment"
 penis1: "Dick of"
 penis2: "Size of penis"
@@ -38,3 +41,4 @@ cannotfindtargetserver: "We cannot reach server id please try another time"
 
 # prefix
 prefix_too_long: "This prefix is too long, so I didn't save the change. Please use a shorter prefix!"
+prefix_changed: "Your prefix was changed !"

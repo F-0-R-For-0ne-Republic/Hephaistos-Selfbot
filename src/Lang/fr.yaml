@@ -2,7 +2,7 @@
 helpdesc: "Affiche les commandes disponibles"
 helpmess: "Voici les commandes disponibles"
 
-# fun
+# Description
 dickdesc: "Affiche la longueur du penis de la personne mentionner"
 gaydesc: "Cette commande permet de dire à combien de pourcent la personne est gay"
 iqdesc: "Combien de QI ont vos ami ?"
@@ -22,6 +22,9 @@ tokeninfodesc: "Vous permet de afficher des informations sur un token"
 inviteinfodesc: "Vous permet de afficher des informations sur une invitation"
 clearinfodesc: "Vous permet de supprimer tout les messages du salon provenant de vous"
 thotinfodesc: "Vérifier le pourcentage de saloperie de quelqu'un"
+backupfriends: "Sauvegarde les amis de ton compte"
+backupfriends1: "Vos amis ont bien été sauvegardés dans le fichier :"
+# Other
 thot1: "Le pourcentage de la saloperie de"
 thottest: "Le pourcentage de la saloperie de {target} est de `{rating}%`"
 thot2: "est de:"
@@ -42,3 +45,4 @@ cannotfindtargetserver: "Ce serveur ne peut pas être trouver"
 
 # prefix
 prefix_too_long: "Ce préfixe est trop long, donc je n'ai pas sauvegardé le changement. Veuillez utiliser un préfixe plus court !"
+prefix_changed: "Votre prefix a bien était changer"
