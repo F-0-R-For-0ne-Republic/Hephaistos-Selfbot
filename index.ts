@@ -27,7 +27,7 @@ dotenv.config();
 starter.displayIntro();
 
 process.on("uncaughtException", (err) => {
-  console.log(err)
+  console.log(err);
 });
 
 client.login(process.env.TOKEN);

@@ -16,7 +16,7 @@
  * Author:     Unknown-user-dev
  * Description: Backup your friends ! 
  * Created:    01/12/2024, 10:10:05
- * Modified:   01/12/2024, 10:16:57
+ * Modified:   01/12/2024, 10:19:12
  *
  *    Licensed under the Attribution-NonCommercial-ShareAlike 4.0 International
  *                             (CC BY-NC-SA 4.0)
@@ -66,7 +66,7 @@ export const command: Command = {
             const friends = data.filter((user: any) => user.type === 1);
             const friendsList = friends.map((friend: any) => `${friend.user.username}#${friend.user.discriminator}`).join("\n");
 
-            fs.writeFile('./files/friends.json', friendsList, (err) => {
+            fs.writeFile('./files/friends.txt', friendsList, (err) => {
                 if (err) throw err;
                 console.log(gradient.instagram(`[${config.console.emojis.okay}] > ${lang.backupfriends1} friends.json`));
                 message.edit(`${lang.backupfriends1} friends.json`);

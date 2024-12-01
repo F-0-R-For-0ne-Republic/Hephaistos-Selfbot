@@ -10,6 +10,8 @@ export const command: Command = {
             return message.edit({ content: lang.prefix_too_long });
         }
 
+        message.edit({ content: lang.prefix_changed.replace("{prefix}", args[0]) });
+
         global.config.prefix = args[0];
 
         writeFileSync(
