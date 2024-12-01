@@ -23,6 +23,8 @@ clearinfodesc: "Allow you to delete all message from you in the channel"
 thotinfodesc: "Check the percentage of someone's filthiness"
 nitroinfodesc: "Generate a fake Nitro gift link"
 backupfriends: "Save your friends list of your account"
+deletewebhookdesc: "Delete any webhook you want!"
+backupdesc: "Save your friends into a file !"
 backupfriends1: "Your friends was backup with success in the files :"
 # Other
 phdesc: "Fake pornhub comment"
@@ -33,10 +35,13 @@ dice1: "Dice"
 iq1: "IQ test on"
 successinject: "Injection Successful"
 virus1: "Packing Files..."
+webhook1: "The current webhook was deleted : "
+# Error
 nomentionerror: "Please mention an user to execute this command"
 nomessageerror: "Please write a message in args"
 notokenerror: "Please.. enter a token ????"
 noinviteerror: "Please enter a valid invite link"
+nowebhook: "Please enter a valid webhook !"
 cannotfindtargetserver: "We cannot reach server id please try another time"
 
 # prefix

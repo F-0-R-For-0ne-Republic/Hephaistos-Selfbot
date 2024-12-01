@@ -22,6 +22,8 @@ tokeninfodesc: "Vous permet de afficher des informations sur un token"
 inviteinfodesc: "Vous permet de afficher des informations sur une invitation"
 clearinfodesc: "Vous permet de supprimer tout les messages du salon provenant de vous"
 thotinfodesc: "Vérifier le pourcentage de saloperie de quelqu'un"
+deletewebhookdesc: "Supprime une webhook de votre choix"
+backupdesc: "Sauvegarde les amis de votre compte"
 backupfriends: "Sauvegarde les amis de ton compte"
 backupfriends1: "Vos amis ont bien été sauvegardés dans le fichier :"
 # Other
@@ -37,10 +39,13 @@ dice1: "Dé"
 iq1: "Test de QI sur"
 successinject: "Injecté avec succès"
 virus1: "Empaquetage des Fichiers..."
+webhook1: "La webhook suivante a bien était supprimer : "
+# Error
 nomentionerror: "Veuillez mentionner une personne pour exécuter la commande"
 nomessageerror: "Veuillez écrire un message en argument"
 noinviteerror: "Veuillez mettre un lien de inviation"
 notokenerror: "Veuillez mettre un token"
+nowebhook: "Veuillez entrée une webhook valide !"
 cannotfindtargetserver: "Ce serveur ne peut pas être trouver"
 
 # prefix
